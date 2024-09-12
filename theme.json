@@ -1,0 +1,58 @@
+{
+  "title":            "Default",
+  "$schema":          "https://schemas.wp.org/trunk/theme.json",
+  "version":          3,
+  "patterns":         [],
+  "templateParts":    [
+    {"title": "Header", "name": "header", "area": "header"},
+    {"title": "Content", "name": "content", "area": "uncategorized"},
+    {"title": "Footer", "name": "footer", "area": "footer"}
+  ],
+  "customTemplates":  [
+    {"name": "sparks+/home", "title": "Sparks+ Home Page", "postTypes": [ "page", "post"]},
+    {"name": "nuggets+/home", "title": "Nuggets+ Home Page", "postTypes": [ "page", "post"]}
+  ],
+  "settings":         {
+    "custom": {
+      "navigation": {
+        "menus": { "primary": "Primary Menu", "footer": "Footer Menu" }
+      }
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#0057a3",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#d9d9d9",
+          "name": "Secondary"
+        }
+      ]
+    },
+    "typography": {
+      "fontSizes": [
+        {
+          "slug": "small",
+          "size": "12px",
+          "name": "Small"
+        },
+        {
+          "slug": "large",
+          "size": "24px",
+          "name": "Large"
+        }
+      ]
+    }
+  },
+  "styles":           {
+    "color": { "background": "#000", "text": "#fff", "gradient": "" },
+    "blocks": {
+      "core/navigation": {
+        "color": {"text":"", "background":"#333"}
+      }
+    }
+  }
+}

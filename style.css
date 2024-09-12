@@ -1,0 +1,29 @@
+/*
+  Theme Name: Sparks +
+
+  Theme URI: http://sparksplus.org
+
+  Author: Exenreco Bell
+
+  Author URI: http://exenreco.com/
+
+  Description: A block theme for WordPress.
+
+  Version: 1.0
+
+  License: GNU General Public License v3 or later
+
+  License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+  Text Domain: sparks-plus
+*/
+
+/*
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+*/
+
+.primary-menu, .primary-menu .a {
+  color: #fff;
+}
